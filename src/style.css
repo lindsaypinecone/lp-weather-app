@@ -1,0 +1,57 @@
+body {
+  padding: 34px;
+  text-align: center;
+}
+.weather-app {
+  border: 4px outset #4db3a9;
+  border-radius: 7px;
+  padding: 34px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+h1,
+h2,
+h3,
+.row,
+button,
+input,
+.placeholder {
+  color: #4db3a9;
+  font-family: "Quicksand", sans-serif;
+}
+h1 {
+  padding: 15px;
+}
+.main-emoji {
+  font-size: 40px;
+  padding: 10px;
+}
+h2 {
+  font-size: 40px;
+}
+a {
+  text-decoration: none;
+  color: #4db3a9;
+}
+input,
+button {
+  border: solid;
+  border-color: #4db3a9;
+  border-radius: 5px;
+  color: #4db3a9;
+}
+hr {
+  background-color: #4db3a9;
+  border: solid;
+  border-color: #4db3a9;
+  border-radius: 7px;
+  height: 40px;
+  margin-top: 20px;
+}
+li {
+  list-style: none;
+}
+ul {
+  margin: 0 auto;
+  padding: 0;
+}
