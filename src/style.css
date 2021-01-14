@@ -14,7 +14,6 @@ h2,
 h3,
 .row,
 button,
-input,
 .placeholder {
   color: #4db3a9;
   font-family: "Quicksand", sans-serif;
@@ -54,4 +53,9 @@ li {
 ul {
   margin: 0 auto;
   padding: 0;
+}
+footer {
+  opacity: 0.5;
+  padding: 10px;
+  font-size: 12px;
 }
