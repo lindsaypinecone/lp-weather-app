@@ -70,3 +70,8 @@ footer {
 .details {
   font-size: larger;
 }
+small {
+  position: relative;
+  font-size: 18px;
+  top: -16px;
+}
