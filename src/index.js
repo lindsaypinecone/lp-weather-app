@@ -26,6 +26,12 @@ function showWeather(response) {
   );
   document.querySelector("#current-conditions").innerHTML =
     response.data.weather[0].main;
+  document.querySelector("#current-pressure").innerHTML =
+    response.data.main.pressure;
+  document.querySelector("#current-humidity").innerHTML =
+    response.data.main.humidity;
+  document.querySelector("#current-wind").innerHTML =
+    response.data.wind.speed * 3.6;
 }
 function searchCities(city) {
   let apiKey = "bdcd22b83edd4d35012716b6cb110cc7";
