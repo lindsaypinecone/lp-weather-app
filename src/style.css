@@ -41,6 +41,10 @@ a {
   text-decoration: none;
   color: #4db3a9;
 }
+a:hover {
+  text-decoration: underline;
+}
+
 input,
 button {
   border: solid;
@@ -71,8 +75,17 @@ footer {
 .details {
   font-size: larger;
 }
-small {
+.units {
   position: relative;
   font-size: 18px;
   top: -16px;
+}
+
+.units .active {
+  color: #48484a;
+  cursor: default;
+}
+
+.units .active:hover {
+  text-decoration: none;
 }
