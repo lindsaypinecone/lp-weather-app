@@ -89,3 +89,8 @@ footer {
 .units .active:hover {
   text-decoration: none;
 }
+
+.current-forecast img {
+  height: 44px;
+  width: 44px;
+}
