@@ -29,10 +29,7 @@ button,
 h1 {
   padding: 15px;
 }
-.main-emoji {
-  font-size: 40px;
-  padding: 10px;
-}
+
 h2 {
   font-size: 40px;
   padding-top: 16px;
@@ -71,6 +68,10 @@ footer {
   opacity: 0.5;
   padding: 10px;
   font-size: 12px;
+}
+.main-emoji {
+  font-size: 40px;
+  padding: 10px;
 }
 .details {
   font-size: larger;
